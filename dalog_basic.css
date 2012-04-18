@@ -1,0 +1,55 @@
+/*
+ * SimpleModal Basic Modal Dialog
+ * http://www.ericmmartin.com/projects/simplemodal/
+ * http://code.google.com/p/simplemodal/
+ *
+ * Copyright (c) 2010 Eric Martin - http://ericmmartin.com
+ *
+ * Licensed under the MIT license:
+ *   http://www.opensource.org/licenses/mit-license.php
+ *
+ * Revision: $Id: basic.css 257 2010-07-27 23:06:56Z emartin24 $
+ */
+/* End hide from IE-mac */
+
+#basic-modal-content { display:none; }
+/* Overlay */
+#simplemodal-overlay {
+background-color:#fff;
+cursor: default;
+}
+/* Container */
+#simplemodal-container { }
+.simplemodal-container {
+max-width:660px;
+max-height:600px;
+mini-height:420px;
+}
+#simplemodal-container .simplemodal-data {background-color:#fff;
+border:#DAD8D8 solid 1px;
+box-shadow: 0 3px 8px rgba(34, 25, 25, 0.4);
+-moz-box-shadow: 0 3px 8px rgba(34, 25, 25, 0.4);
+-webkit-box-shadow: 0 3px 8px rgba(34, 25, 25, 0.4)}
+#simplemodal-container a.modalCloseImg {
+background:red;
+z-index:99;
+width:52px;
+height:52px;
+position:absolute;
+right:0;
+top:0;
+cursor:pointer;
+}
+/*dalog*/
+.dialog_title {
+border-bottom:1px solid #DEDEDE;
+padding:10px 15px;
+height:32px;
+}
+.dialog_content { }
+.dialog_body { padding:10px 15px; }
+.dialog_action {
+background:#F5F5F5;
+padding:10px 15px;
+border-top:1px solid #DEDEDE;
+}
